@@ -1,1 +1,1 @@
-# Unit5-03-PHP-Factorial
+[![GitHub's Super Linter](https://github.com/CarolynWP/Unit5-03-PHP-Factorial/actions/workflows/main.yml/badge.svg)](https://github.com/CarolynWP/Unit5-03-PHP-Factorial/actions)
