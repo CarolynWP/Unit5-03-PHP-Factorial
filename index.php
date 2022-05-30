@@ -6,7 +6,7 @@
 		<!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
-		<!-- Witch Hazel Tree Favicon -->
+		<!-- Cherry Tree Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
@@ -29,12 +29,13 @@
 			<?php echo '<img src="./images/brother.png" width="300px" alt="The Number Kings brother">' ?>
 			<br>
 			<!-- Factorial text box -->
-			<?php echo '<h2>The factorial weapon.</h2>' ?>
+			<?php echo '<h2>The factorial weapon:</h2>' ?>
 			<form method = "post">
-				<?php echo '<h5>Damage:</h5>' ?>
-				<input type="number" name="number" step="1">  
+				<?php echo '<h3>Damage:</h3>' ?>
+				<input type="number" name="number" min="0" step="1">  
 				<br>
-
+				<br>
+				<br>
 				<!-- Submit button -->
 				<input type = "submit" name = "submit" value="ENTER!">  
 					<br>
@@ -48,7 +49,7 @@
 						$factorial = 1;
 						$counter = 1;
 						
-						//For loop for positive numbers
+						//do while loop for factorials
 					 do {
 						 $factorial = $factorial * $counter;
 						 $counter++;
@@ -57,9 +58,9 @@
 						//output
 						echo "<h1>Great job! You did $factorial damage!!</h1>";
 						echo "<h2>WHAT?? NO!!! THIS CANNOT BE!! I HAVE BEEN DEFEATED! AAAAAAHHHHHHHHHH!!</h2>";
-						 echo "<img src='./images/number_gone.png' width='800px' alt='Number King is gone!!'>";
+						echo "<img src='./images/number_gone.png' width='800px' alt='Number King is gone!!'>";
 						echo "<h2>I am so very proud of you, numberless being! You have saved the world from my brother. A funeral will be held tomorrow at 4:00, if you would like to join us? Although he turned evil in the end, he was just in love with numbers.</h2>";
-						 echo "<img src='./images/brother.png' width='400px' alt='Brother'";
+						echo "<img src='./images/brother.png' width='350px' alt='Brother'";
 						
 					}
 					?>
