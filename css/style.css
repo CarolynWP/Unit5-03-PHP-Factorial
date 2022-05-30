@@ -1,0 +1,47 @@
+body {
+height: 100vh;
+	background: linear-gradient(
+		to right,
+		#d72d2d 0%,
+		#d72d2d 20%,
+		#660000 100%
+	);
+}
+
+.margin {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.zoom {
+	zoom: 1.2;
+	background-color: #e0e0e0;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+h1{
+	background-color: #e0e0e0;
+	color: #ff4f14;
+}
+
+h2{
+	background-color: #e0e0e0;
+	color: #ff4f14;
+}
+
+h3{
+	background-color: #e0e0e0;
+	color: #ff4f14;
+}
+
+h4{
+	background-color: #e0e0e0;
+	color: #ff4f14;
+}
+
+h5{
+	background-color: #e0e0e0;
+	color: #ff4f14;
+}
